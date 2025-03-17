@@ -1,0 +1,280 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* background image */
+  body {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+                url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .banner {
+    width: 100%;
+    min-height: 100vh; /* Use min-height to allow content growth if needed */
+    position: relative;
+  }
+  
+/* Navbar styling */
+  .navbar {
+    width: 90%; /* Adjust width for better spacing */
+    margin: 20px auto 0 50px; /* Adds margin at the top and left */
+    padding: 15px 20px;
+    border-radius: 20px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent */
+    backdrop-filter: blur(10px); /* Blurring effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    position: fixed;
+    top: 20px; /* Space from top */
+    left: 20px; /* Space from left */
+    right: 20px; /* Prevents stretching to the full screen */
+    z-index: 1000;
+  }
+
+  .logo-text {
+    font-family: 'Lucida Hand', 'Brush Script MT', cursive;
+    font-size: 40px;
+    color: #fff;
+    padding-left: 2%;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover {
+    transform: scale(1.1);
+    background: rgba(87, 194, 236, 0.3);
+    border-radius: 5px;
+  }
+  
+  /* Social icons styling */
+  .social {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .nav-social {
+    position: fixed;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .nav-social img {
+    transition: transform 0.3s;
+  }
+  
+  .nav-social img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Content styling */
+  .content {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
+  
+  .content h1 {
+    color: rgb(52, 123, 204);
+  }
+  
+  .content p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  /* Fixed profile image */
+  .profile-img {
+    float: right; /* Makes the image align to the right of its container */
+    width: 500px; /* Adjust the width as needed */
+   margin: 20px; /* Adds some spacing around the image */
+    padding-right: 10%;
+    position: relative; top: -35px;
+  }
+  
+  /* Projects section styling */
+  .projects {
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 15%;
+  }
+  
+  .projects h1 {
+    color: rgb(52, 123, 204);
+  }
+  
+  .projects p {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  /* Container for all project ideas */
+.projects-section {
+  padding: 50px 15%;
+  background: rgba(0, 0, 0, 0.1); /* Optional subtle background */
+}
+
+/* Main project box container */
+.project-box {
+  background: rgba(235, 235, 235, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  display: grid;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Styling for the list container */
+.project-box ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row; /* Stacks items vertically */
+  gap: 20px; /* Space between each card */
+   /* Ensures the list takes up the full width of the container */
+
+  margin: 0 auto; /* Centers the list */
+}
+
+/* Each project item card */
+.project-item {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px; /* Expands the width but keeps a max limit */
+}
+
+.project-info {
+  flex: 3; /* This allows project-info to expand to fill the remaining space */
+  padding: 15px;
+
+  
+}
+
+/* Project image styling */
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+/* Contact Section Styling */
+.contact-wrapper {
+  
+  padding: 50px 15% 100px;
+  color: white;
+}
+
+.contact-wrapper h1 {
+  color: rgb(52, 123, 204);
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.contact-wrapper p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#contact-form {
+  max-width: 800px;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: rgb(52, 123, 204);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+button[type="submit"] {
+  background: rgb(52, 123, 204);
+  color: white;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button[type="submit"]:hover {
+  background: rgb(40, 100, 180);
+  transform: translateY(-2px);
+}
