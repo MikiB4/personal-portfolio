@@ -18,7 +18,6 @@ This website serves as my digital resume, allowing visitors to explore my **work
 - **Version Control:** Git & GitHub
 
 ## 📷 Screenshots
-![Portfolio Screenshot]
 ![Image](https://github.com/user-attachments/assets/b4597d7c-1ef4-4d7b-b24d-71901bc279bb)
 
 ## 📦 Installation & Setup
