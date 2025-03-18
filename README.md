@@ -19,7 +19,7 @@ This website serves as my digital resume, allowing visitors to explore my **work
 
 ## 📷 Screenshots
 ![Portfolio Screenshot](screenshot.png)  
-_(Replace with actual screenshot of your website)_
+_(![Image](https://github.com/user-attachments/assets/b4597d7c-1ef4-4d7b-b24d-71901bc279bb))_
 
 ## 📦 Installation & Setup
 To run this project locally, follow these steps:
