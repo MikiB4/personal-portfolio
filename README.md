@@ -1,34 +1,29 @@
-# Personal Portfolio Website
-🌟 Overview
-This is my personal portfolio website, showcasing my skills, projects, and experiences. The site is built using HTML, CSS, and JavaScript to create a responsive and interactive user experience.
+# 🎨 Personal Portfolio Website
 
-🚀 Features
-📌 About Me – A brief introduction about myself.
-🛠 Skills – Technologies and tools I use.
-📂 Projects – A collection of my best work.
-📞 Contact – Ways to get in touch with me.
-🔧 Technologies Used
-Frontend: HTML, CSS, JavaScript
-Styling: CSS Flexbox & Grid
-Animations: JavaScript & CSS Transitions
-Version Control: Git & GitHub
-📷 Screenshots
-(Include images of your website here.)
+Welcome to my **Personal Portfolio Website**! This project showcases my skills, projects, and experiences in web development.
 
-📦 Installation & Setup
-To run this project locally:
+## 🌟 Overview
+This website serves as my digital resume, allowing visitors to explore my **work, skills, and contact details**. It is designed to be **fully responsive** and user-friendly.
 
-Clone the repo:
-sh
-Copy
-Edit
-git clone https://github.com/MikiB4/personal-portfolio.git
-cd personal-portfolio
-Open index.html in your browser.
-📡 Live Demo
-Check it out here: Your GitHub Pages Link
+## 🚀 Features
+- 🏆 **About Me** – A brief introduction and bio.
+- 🛠 **Skills** – Technologies and tools I use.
+- 📂 **Projects** – Showcasing my best work.
+- 📞 **Contact** – Ways to get in touch with me.
 
-📌 Contact Me
-📧 Email: [Your Email]
-🌐 Website: [Your Website]
-💼 LinkedIn: [Your LinkedIn Profile]
+## 🔧 Technologies Used
+- **Frontend:** HTML, CSS, JavaScript
+- **Styling:** CSS Flexbox & Grid
+- **Animations:** JavaScript & CSS Transitions
+- **Version Control:** Git & GitHub
+
+## 📷 Screenshots
+![Portfolio Screenshot](screenshot.png)  
+_(Replace with actual screenshot of your website)_
+
+## 📦 Installation & Setup
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/MikiB4/personal-portfolio.git
