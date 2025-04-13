@@ -125,8 +125,8 @@
     float: right; /* Makes the image align to the right of its container */
     width: 500px; /* Adjust the width as needed */
    margin: 20px; /* Adds some spacing around the image */
-    padding-right: 10%;
-    position: relative; top: -35px;
+    padding-right: 9%;
+    position: relative; top: -50px;
   }
   
   /* Projects section styling */
@@ -277,4 +277,176 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background: rgb(40, 100, 180);
   transform: translateY(-2px);
+}
+
+/* Responsive Design */
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1d1f1f;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 12px 20px;
+    border-top: 1px solid #333;
+  }
+}
+
+
+/* For Tablets and smaller desktops */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 18px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+  }
+
+  .content {
+    padding: 20% 10% 0;
+    font-size: 28px;
+  }
+
+  .profile-img {
+    width: 300px;
+    float: none;
+    display: block;
+    margin: 20px auto;
+    padding-right: 0;
+  }
+
+  .projects {
+    padding: 20% 10% 0;
+    font-size: 28px;
+  }
+
+  .projects-section {
+    padding: 40px 10%;
+  }
+
+  .project-box ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-item {
+    width: 100%;
+  }
+
+  .contact-wrapper {
+    padding: 40px 10%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  .nav-social {
+    left: 10px;
+  }
+}
+@media (max-width: 1000px) {
+.profile-img {
+  display: none;
+}
+}
+
+/* For Mobile Devices */
+@media (max-width: 1000px) {
+  .logo-text {
+    font-size: 28px;
+  }
+
+ 
+
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .nav-links {
+    gap: 8px;
+    font-size: 14px;
+  }
+
+  .content {
+    padding: 25% 5% 0;
+    font-size: 22px;
+  }
+
+  .content p {
+    font-size: 16px;
+  }
+
+  .projects {
+    font-size: 22px;
+    padding: 25% 5% 0;
+  }
+
+  .projects p {
+    font-size: 16px;
+  }
+
+  .project-box {
+    padding: 20px;
+  }
+
+  .project-item {
+    padding: 10px;
+  }
+
+  .contact-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .contact-wrapper p,
+  .form-group label,
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+  }
+
+  .nav-social {
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    flex-direction: row;
+    gap: 15px;
+    transform: none;
+  }
+
+  .nav-social img {
+    width: 30px !important;
+  }
 }
